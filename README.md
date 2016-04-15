@@ -30,7 +30,7 @@
 
 
 ## How 如何使用
-1. 将*MD5Helper*文件夹下的文件*NSString+LSMD5.h*和*NSString+LSMD5.m*拖入自己的工程。 
+1. 将**MD5Helper**文件夹下的文件**NSString+LSMD5.h**和**NSString+LSMD5.m**拖入自己的工程。 
 2. 引入头文件`#import "NSString+LSMD5.h"`
 3. 调用类方法`[NSString md5:orginStr]`
 

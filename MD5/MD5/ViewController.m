@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *orginStr = @"这是原始字符串,下边是MD5之后的字符串";
+    NSString *orginStr = @"这是原始字符串,下边是MD5加密之后的字符串";
     NSString *md5Str = [NSString md5:orginStr];
     NSLog(@"%@", orginStr);
     NSLog(@"%@", md5Str);
